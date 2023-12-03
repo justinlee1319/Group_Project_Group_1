@@ -28,7 +28,7 @@ This data consists 11 different columns, 7 of them are integers, 2 of them are s
   
 Feel free to download our repository and try to run it in your local environment with the following commands:
 ```
-python3 python app.py
+python app.py
 ```
 You will find the visualization running on [`http://localhost:5000`](http://localhost:5000)
 
