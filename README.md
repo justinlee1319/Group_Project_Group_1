@@ -21,7 +21,7 @@ This data consists 11 different columns, 7 of them are integers, 2 of them are s
 |Followers gained|The number of followers a particular streamer has gained|
 |Views gained|Streams get views|
 |Partnered|Does the streamer work with Twitch|
-|Mature|over 18 years of age|
+|Mature|Over 18 years of age|
 |Language|The language used by a streamer|
 
 ## Running Locally
