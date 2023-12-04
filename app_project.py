@@ -4,7 +4,7 @@ import pathlib
 
 base_path = pathlib.Path().cwd()
 db_name = "twitch_data.db"
-db_path= base_path / db_name
+db_path= base_path /'database'/ db_name
 
 
 app = Flask(__name__)
