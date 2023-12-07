@@ -1,7 +1,7 @@
 # 1000 Top Streamers On Twitch
 
 ## Objectives  
-Analyze the top 1000 streamers from Twitch. <br>
+Write Python code to store the data of top 1000 streamers from Twitch in a database, and then serve that data up via a website. <br>
 
 ## About Tools
 <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>  <img src="https://img.shields.io/badge/pandas%20-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white" />  <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white"/>
@@ -28,7 +28,7 @@ This data consists 11 different columns, 7 of them are integers, 2 of them are s
   
 Feel free to download our repository and try to run it in your local environment with the following commands:
 ```
-python app.py
+python app_project.py
 ```
 You will find the visualization running on [`http://localhost:5000`](http://localhost:5000)
 
