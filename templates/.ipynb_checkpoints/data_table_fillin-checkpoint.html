@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        
+    </head>
+    <body>
+        
+   <h1>My Data</h1>
+    <table border="1"> <!-- Making the border visibile -->
+        <!-- Add the headers -->
+        <tr>
+            <th>Channel</th>
+            <th>Watch Time (Minutes)</th>
+            <th>Stream Time (Minutes)</th>
+            <th>Peak Viewers</th>
+            <th>Average Viewers</th>
+            <th>Followers</th>
+            <th>Followers Gained</th>
+            <th>Views Gained</th>
+            <th>Partnered(0=false, 1=true)</th>
+            <th>Mature(0=false, 1=true)</th>
+            <th>Language</th>
+        </tr>
+        
+        <!-- Fetch twitch_data -->
+        {% for row in twitch_data %}
+        <tr>
+            {% for cell in row %}
+            <td>{{ cell }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+         
+</body>
+</html>
+
